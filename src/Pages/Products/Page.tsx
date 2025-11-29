@@ -11,7 +11,7 @@ const Products = () => {
         <Navbar/>
         <HeroText title="Our Products" subtitle="At JSpark, we create innovative products that help businesses across different industries achieve their goals. Our products include software solutions, AI-based programs, and customized solutions that are tailored to the specific needs of our clients."/>
     </div>
-    {/* <div className="bg-[url('src/assets/trust.png')]"> */}
+    {/* <div className="bg-[url('assets/trust.png')]"> */}
         <ProductList/>
         <Footer/>
     {/* </div> */}

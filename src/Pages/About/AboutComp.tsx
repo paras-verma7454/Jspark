@@ -3,10 +3,10 @@ const AboutComp = () => {
     const data= [{
         title: "Jspark",
         desc: "Since our inception in 2020, JSpark has established itself as a trusted partner for businesses seeking innovative and tailored solutions to meet their specific requirements.",
-        img:"src/assets/about.png"
+        img:"assets/about.png"
     },{
         desc:"Our dedicated team of experts is driven by a commitment to excellence, ensuring that we deliver top-notch services to our clients.",
-        img:"src/assets/member.png"
+        img:"assets/member.png"
     }]
   return (
     <>

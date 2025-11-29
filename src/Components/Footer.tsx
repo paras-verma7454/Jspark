@@ -29,7 +29,7 @@ const year = new Date().getFullYear();
         <div className=" flex flex-col md:flex-row items-center justify-around px-6 md:px-8 py-12 gap-8">
             {/* Image on top for mobile, right for desktop */}
             <div className="md:order-last -mt-40">
-                <img className="max-w-[250px] md:max-w-xs" src="src/assets/img-3.png" alt="Innovation illustration"/>
+                <img className="max-w-[250px] md:max-w-xs" src="assets/img-3.png" alt="Innovation illustration"/>
             </div>
             <div className="font-bold text-center md:text-left">
                 <div className="text-3xl xl:text-5xl text-[#0A133A]">
@@ -43,7 +43,7 @@ const year = new Date().getFullYear();
         </div>
 
         <div>
-            <img src="src/assets/linear.png"/>
+            <img src="assets/linear.png"/>
         </div>
 
         <div className="flex flex-col lg:flex-row justify-around items-center py-10 gap-5">
@@ -53,9 +53,9 @@ const year = new Date().getFullYear();
                     Contact info
                 </div>
                 <div className="flex flex-col font-bold md:flex-row justify-around items-center gap-5 mt-5">
-                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="src/assets/linkedin.png"/>Jspark</button>
-                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="src/assets/mail.png"/>sales@jspark.in</button>
-                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="src/assets/globe.png"/>www.jspark.in</button>
+                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="assets/linkedin.png"/>Jspark</button>
+                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="assets/mail.png"/>sales@jspark.in</button>
+                    <button className="flex border text-xs xl:text-sm rounded-2xl items-center gap-2 px-5 py-1"><img className="h-4" src="assets/globe.png"/>www.jspark.in</button>
                 </div>
             </div>
 

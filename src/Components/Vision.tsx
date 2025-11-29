@@ -1,7 +1,7 @@
 
 const Vision = () => {
   return (
-    <div className="bg-cover bg-[url('src/assets/f2.png')] ">
+    <div className="bg-cover bg-[url('assets/f2.png')] ">
        <div className="flex flex-col justify-between gap-30 px-5">
             <div className="flex flex-col-reverse md:flex-row justify-around gap-5 items-center">
                 <div className="flex flex-col justify-center gap-5">
@@ -17,13 +17,13 @@ const Vision = () => {
                     </div>
                 </div>
                 <div>
-                    <img className="h-50 lg:h-70" src="src/assets/img-1.png"/>
+                    <img className="h-50 lg:h-70" src="assets/img-1.png"/>
                 </div>
             </div>
             <div>
                 <div className="flex flex-col md:flex-row justify-around items-center gap-5">
                     <div>
-                        <img className="h-50 lg:h-70" src="src/assets/img-2.png"/>
+                        <img className="h-50 lg:h-70" src="assets/img-2.png"/>
                     </div>
                     <div className="flex flex-col justify-center gap-5">
                         <div className="">

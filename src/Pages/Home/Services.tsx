@@ -5,25 +5,25 @@ const servicesData = [
         description: "At JSpark, we offer a comprehensive suite of AI & IoT services that are tailored to meet the unique needs of our clients.",
         title: "Vision AI",
         features: ["Depth Estimation", "Object detection", "Video Classification", "Image Classification"],
-        image: "src/assets/scroll1.png"
+        image: "assets/scroll1.png"
     },
     {
         description: "Our white label solution provides a seamless and reliable AI & IoT service that meets our clients' expectations, delivering cutting-edge solutions.",
         title: "IoT",
         features: ["Depth Estimation", "Object detection", "Video Classification", "Image Classification"],
-        image: "src/assets/scroll2.png"
+        image: "assets/scroll2.png"
     },
     {
         description: "That optimize business operations and generate valuable insights.",
         title: "NLP",
         features: ["Depth Estimation", "Object detection", "Video Classification", "Image Classification"],
-        image: "src/assets/scroll3.png"
+        image: "assets/scroll3.png"
     },
     {
         description: "We have the expertise and experience to provide the right solution for your business.",
         title: "Custom Development",
         features: ["Depth Estimation", "Object detection", "Video Classification", "Image Classification"],
-        image: "src/assets/scroll4.png"
+        image: "assets/scroll4.png"
     }
 ];
 
@@ -48,7 +48,7 @@ const Services = () => {
                                     </p>
                                     <button className="text-xs items-center text-center w-35 md:w-40 md:text-sm gap-4 flex font-semibold px-4 md:px-5 py-2 rounded-3xl bg-[#235DD7] text-white cursor-pointer">
                                         LEARN MORE
-                                        <img className="h-2" src="src/assets/arrow.png" alt="arrow" />
+                                        <img className="h-2" src="assets/arrow.png" alt="arrow" />
                                     </button>
                                 </div>
                                 <div className="bg-[#F8F9FF] rounded-md px-10 py-6 flex flex-col-reverse md:flex-row justify-between items-center gap-10">
@@ -58,7 +58,7 @@ const Services = () => {
                                         <div className="flex flex-col justify-around items-start gap-3">
                                             {service.features.map((feature, index) => (
                                                 <div className="flex items-center gap-2" key={index}>
-                                                    <img className="h-4" src="src/assets/tick.png" alt="tick" />
+                                                    <img className="h-4" src="assets/tick.png" alt="tick" />
                                                     <p className="text-[#0A133A] lg:text-lg font-semibold">{feature}</p>
                                                 </div>
                                             ))}

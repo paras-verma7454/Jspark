@@ -2,7 +2,7 @@
 
 const Trusted = () => {
   return (
-    <div className=" bg-cover h-100  bg-[url('src/assets/trust.png')]">
+    <div className=" bg-cover h-100  bg-[url('assets/trust.png')]">
         <div className="">
             <div className="flex flex-col justify-center items-center">
                 <h1 className="font-bold  text-[#0A133A] mt-15">
@@ -18,15 +18,15 @@ const Trusted = () => {
             <div className="flex flex-col lg:flex-row justify-center gap-10 items-center mt-15">
                 <div className="flex justify-center items-center gap-5 md:gap-7">
 
-                    <img className="h-7 -mt-4 md:-mt-5 md:h-12 md:-mr-1" src="src/assets/proeco.png"/>
-                    <img className="h-4 md:h-8" src="src/assets/asterisk.png"/>
-                    <img className="h-4 md:h-8" src="src/assets/recycle.png"/>
+                    <img className="h-7 -mt-4 md:-mt-5 md:h-12 md:-mr-1" src="assets/proeco.png"/>
+                    <img className="h-4 md:h-8" src="assets/asterisk.png"/>
+                    <img className="h-4 md:h-8" src="assets/recycle.png"/>
                 </div>
                 <div className="flex justify-between items-center gap-5 md:gap-7">
 
-                    <img className="h-4 md:h-8" src="src/assets/arc.png"/>
-                    <img className="h-4 md:h-8" src="src/assets/mainpoint.png"/>
-                    <img className="h-4 md:h-8" src="src/assets/oasis.png"/>
+                    <img className="h-4 md:h-8" src="assets/arc.png"/>
+                    <img className="h-4 md:h-8" src="assets/mainpoint.png"/>
+                    <img className="h-4 md:h-8" src="assets/oasis.png"/>
                 </div>
             </div>
         </div>

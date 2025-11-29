@@ -2,16 +2,16 @@
 const ProductList = () => {
     const Productlist = [{
         title :"IoT Platform",
-        img:"src/assets/tube.png",
+        img:"assets/tube.png",
         list:"JSpark offers comprehensive IoT solutions."
 
     },{
         title:"AI Health Care Suit",
-        img:"src/assets/cup.png",
+        img:"assets/cup.png",
         list:"JSpark offers comprehensive IoT solutions.",
     },{
         title:"AI Based Financial Software",
-        img:"src/assets/disk.png",
+        img:"assets/disk.png",
         list:"JSpark offers comprehensive IoT solutions.",
     }]
     
@@ -32,7 +32,7 @@ const ProductList = () => {
           
           {[...Array(3)].map((_, i) => (
             <div key={i} className={`flex flex-col md:flex-row md:items-start items-center ${index === 1 ? 'md:flex-row-reverse md:text-end' : 'md:text-start'}   gap-2`}>
-              <img src="src/assets/tick.png" alt="tick" />
+              <img src="assets/tick.png" alt="tick" />
               <p className="text-[#0A133A] w-60 md:w-70 text-xs  lg:text-lg font-semibold">{product.list}</p>
             </div>
           ))}

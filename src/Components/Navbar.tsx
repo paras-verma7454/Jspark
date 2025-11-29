@@ -39,7 +39,7 @@ const navigate = useNavigate()
     
     <div className="flex h-[82px] backdrop-blur-xs justify-between items-center gap-5 px-3 lg:px-8 py-4">
         <div className="flex items-center">
-                <img className="h-6" src="src/assets/logo.png" alt="logo" />
+                <img className="h-6" src="assets/logo.png" alt="logo" />
         </div>
 
         <div className="md:flex  hidden justify-between  gap-3 lg:gap-10">

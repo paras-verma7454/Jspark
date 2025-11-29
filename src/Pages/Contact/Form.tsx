@@ -14,7 +14,7 @@ const Form = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center text-center font-bold mt-5">
           <div className="flex flex-col justify-center items-center gap-2 bg-[#F5F6FF] p-5 rounded-md">
-            <img src="src/assets/call.png" alt="Call Us" className="" />
+            <img src="assets/call.png" alt="Call Us" className="" />
             <p className="text-[#A3A3A3] text-xs md:text-md">Call Us</p>
             <div>
             <p className="text-xs md:text-md">+145 8642 3543</p>
@@ -22,7 +22,7 @@ const Form = () => {
           </div>
 
           <div className="flex flex-col items-center gap-2 bg-[#F5F6FF] p-5 rounded-md">
-            <img src="src/assets/ping.png" alt="our location" className="" />
+            <img src="assets/ping.png" alt="our location" className="" />
               <p className="text-[#A3A3A3] text-xs md:text-md">our location</p>
             <div className="">
               <p className="text-xs md:text-md">Noida, UTTAR PRADESH</p>
@@ -31,14 +31,14 @@ const Form = () => {
 
           <div className="flex flex-col items-center gap-2 bg-[#F5F6FF] p-9 rounded-md">
             <div className=" flex flex-col gap-2">
-            <img src="src/assets/email.png" alt="Email" className="" />
+            <img src="assets/email.png" alt="Email" className="" />
             <p className="text-[#A3A3A3] text-xs md:text-md">Email</p>
             </div>
             <p className="text-xs md:text-md">sales@jspark.in</p>
           </div>
 
           <div className=" flex flex-col items-center gap-2 bg-[#F5F6FF] p-5 rounded-md">
-            <img src="src/assets/time.png" alt="Business hours" className="" />
+            <img src="assets/time.png" alt="Business hours" className="" />
               <p className="text-[#A3A3A3] text-xs md:text-md">Business hours</p>
             <div className="flex flex-col gap-1">
               <p className="text-xs md:text-md">Monday to Friday</p>

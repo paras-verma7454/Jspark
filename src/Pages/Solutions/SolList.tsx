@@ -3,31 +3,31 @@ const SolList = () => {
     {
       title: "Agritech",
       desc: "JSpark’s vision is to be a global leader in software development and AI & IoT-based programs, creating innovative solutions.",
-      img: "src/assets/agritech.png",
+      img: "assets/agritech.png",
       list: "JSpark offers comprehensive IoT solutions.",
     },
     {
       title: "Smart Cities",
       desc: "JSpark’s vision is to be a global leader in software development and AI & IoT-based programs, creating innovative solutions.",
-      img: "src/assets/smartcities.png",
+      img: "assets/smartcities.png",
       list: "JSpark offers comprehensive IoT solutions.",
     },
     {
       title: "Automotive",
       desc: "JSpark’s vision is to be a global leader in software development and AI & IoT-based programs, creating innovative solutions.",
-      img: "src/assets/automotive.png",
+      img: "assets/automotive.png",
       list: "JSpark offers comprehensive IoT solutions.",
     },
     {
       title: "Warehouse",
       desc: "JSpark’s vision is to be a global leader in software development and AI & IoT-based programs, creating innovative solutions.",
-      img: "src/assets/warehouse.png",
+      img: "assets/warehouse.png",
       list: "JSpark offers comprehensive IoT solutions.",
     },
     {
       title: "Logistics",
       desc: "JSpark’s vision is to be a global leader in software development and AI & IoT-based programs, creating innovative solutions.",
-      img: "src/assets/logistics.png",
+      img: "assets/logistics.png",
       list: "JSpark offers comprehensive IoT solutions.",
     },
   ];
@@ -58,7 +58,7 @@ const SolList = () => {
                     : "md:text-start"
                 }   gap-2`}
               >
-                <img className="h-4 md:-mt-6" src="src/assets/tick.png" alt="tick" />
+                <img className="h-4 md:-mt-6" src="assets/tick.png" alt="tick" />
                 <p className="text-[#0A133A]  lg:text-lg font-semibold">
                   {data.list}
                 </p>
@@ -76,7 +76,7 @@ const SolList = () => {
                 } px-4 md:px-5 py-2 rounded-3xl bg-[#235DD7] text-white cursor-pointer`}
               >
                 LEARN MORE
-                <img className="h-2" src="src/assets/arrow.png" alt="arrow" />
+                <img className="h-2" src="assets/arrow.png" alt="arrow" />
               </button>
             </div>
           </div>
