@@ -72,8 +72,8 @@ const year = new Date().getFullYear();
 
         <div className=" flex flex-col md:flex-row justify-around items-center md:bg-[#0A133A] gap-5 xl:h-15 py-5">
             <div className="flex items-center">
-                <img className="h-5  hidden md:block" src="src\assets\logo2.png" alt="logo" />
-                <img className="h-6 mt-2 md:hidden" src="src\assets\logo3.png" alt="logo" />
+                <img className="h-5  hidden md:block" src="assets/logo2.png" alt="logo" />
+                <img className="h-6 mt-2 md:hidden" src="assets/logo3.png" alt="logo" />
             </div>
             <div className="flex flex-col md:flex-row justify-between text-center  gap-3 lg:gap-10">
                 {links.map((item) => (

@@ -57,9 +57,9 @@ const navigate = useNavigate()
             <div className="size-8 md:hidden items-center flex" onClick={toggleMenu}>
                 {
                     isOpen ? (
-                        <img src="src\assets\cross.png" alt="close" />
+                        <img src="assets/cross.png" alt="close" />
                     ) : (
-                        <img src="src\assets\menu.png" alt="menu" />
+                        <img src="assets/menu.png" alt="menu" />
                     )
                 }
             </div>
