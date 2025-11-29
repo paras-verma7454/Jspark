@@ -9,7 +9,7 @@ import Services from "./Services"
 const Home = () => {
   return (
     <>
-      <div className='h-screen md:bg-cover bg-[url("assets/bg.png")]'>
+      <div className='h-screen md:bg-cover bg-[url("/assets/bg.png")]'>
         <Navbar />
         <Hero/>
       </div>

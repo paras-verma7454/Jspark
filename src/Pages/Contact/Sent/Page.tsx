@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 const Sent = () => {
     const navigate = useNavigate()
   return (
-    <div className='h-screen flex flex-col justify-center items-center md:bg-cover bg-[url("assets/bg.png")]'>
+    <div className='h-screen flex flex-col justify-center items-center md:bg-cover bg-[url("/assets/bg.png")]'>
         <div className=" p-5 md:p-15 md:px-35 flex flex-col justify-center items-center gap-5 mx-5  rounded-lg bg-[#F5F6FF80]">
             <div>
                 <img src="assets/sent.png"/>

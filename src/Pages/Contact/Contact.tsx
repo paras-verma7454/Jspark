@@ -7,7 +7,7 @@ import Navbar from "../../Components/Navbar"
 
 const Contact = () => {
   return (
-    <div className='h-screen md:bg-cover bg-[url("assets/bg.png")]'>
+    <div className='h-screen md:bg-cover bg-[url("/assets/bg.png")]'>
         <Navbar/>
         <HeroText title="Contact us" subtitle="We're here to help, whether your interest is in our products, you have inquiries about IoT deployment, or you're seeking for cooperation opportunities."/>
         <Form/>
